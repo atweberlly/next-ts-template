@@ -1,6 +1,6 @@
 # Project Title
 
-This is a GitHub repository template that provides a boilerplate for building web applications using Next.js, TypeScript, ESLint, Prettier, and Tailwind CSS. These tools are popular in the web development community and can help you create modern, scalable, and maintainable applications.
+This is a web application built with the Next.js framework and featuring TypeScript, ESLint, Prettier, and Tailwind CSS. These tools are widely used in the web development community and can help you create modern, scalable, and maintainable applications.
 
 ## Features
 
