@@ -1,6 +1,12 @@
 # Project Title
 
-Short description of the project description goes here.
+**Table of Contents**
+
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Run Locally](#run-locally)
+- [Local Production Preview](#local-production-preview)
 
 ## Getting Started
 
