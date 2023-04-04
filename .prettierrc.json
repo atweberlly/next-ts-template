@@ -10,7 +10,8 @@
   ],
   "importOrder": [
     "^react",
-    "^next/(.*)$",
+    "^next(.*)$",
+    "^tailwindcss(.*)$",
     "<THIRD_PARTY_MODULES>",
     "^~/components/(.*)$",
     "^~/styles/(.*)$"
