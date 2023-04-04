@@ -1,12 +1,23 @@
 # Project Title
 
-**Table of Contents**
+This is a GitHub repository template that provides a boilerplate for building web applications using Next.js, TypeScript, ESLint, Prettier, and Tailwind CSS. These tools are popular in the web development community and can help you create modern, scalable, and maintainable applications.
 
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Run Locally](#run-locally)
-- [Local Production Preview](#local-production-preview)
+## Features
+
+The repository template includes the following features:
+
+- **Next.js**: A popular React-based framework for building web applications with server-side rendering, static site generation, and other features.
+- **TypeScript**: A typed superset of JavaScript that helps you catch errors early and improve code quality.
+- **ESLint**: A tool for finding and fixing code issues and enforcing consistent coding styles.
+- **Prettier**: A code formatter that helps you maintain consistent formatting and saves time.
+- **Tailwind CSS**: A utility-first CSS framework that enables you to rapidly design and customize your user interface.
+
+The template also includes some preconfigured settings and dependencies, such as:
+
+- A `.eslintrc.json` file with some common rules for TypeScript and React development.
+- A `.prettierrc.json` file with some default formatting options.
+- A `tailwind.config.ts` file with some basic configurations for customizing the Tailwind CSS styles.
+- Some sample Next.js pages and components that demonstrate how to use TypeScript and Tailwind CSS.
 
 ## Getting Started
 
@@ -56,3 +67,7 @@ To preview the production build locally, run the following command:
 ```bash
 npm run preview
 ```
+
+## License
+
+This repository is licensed under the MIT License. See the [LICENSE](/LICENSE.md) file for more details.
