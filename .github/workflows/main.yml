@@ -1,4 +1,4 @@
-name: Prettier
+name: Main workflow
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  check-code-style:
+  check-code-styles-using-prettier:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -28,3 +28,23 @@ jobs:
 
       - name: Check code style
         run: npx prettier --check .
+
+  check-code-styles-using-eslint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run ESLint
+        run: npx next lint
