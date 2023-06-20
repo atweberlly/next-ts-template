@@ -20,13 +20,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: [
-          ['Inter var', ...fontFamily.sans],
-          {
-            fontFeatureSettings: '"cv11", "ss01"',
-            fontVariationSettings: '"opsz" 32',
-          },
-        ],
+        sans: ['Inter var', ...fontFamily.sans],
       },
       minWidth: {
         xs: '320px',
