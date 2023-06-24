@@ -1,11 +1,18 @@
-import type { Config } from 'tailwindcss'
-import { fontFamily } from 'tailwindcss/defaultTheme'
 import files from './files'
 import { blurs, boxShadows, colors, fontSizes } from './untitled-ui'
+import type { Config } from 'tailwindcss'
+import { fontFamily } from 'tailwindcss/defaultTheme'
 
 export default {
   content: [...files],
+  future: {
+    disableColorOpacityUtilitiesByDefault: true,
+  },
   theme: {
+    container: {
+      center: true,
+      padding: '1rem',
+    },
     blur: {
       ...blurs,
     },
