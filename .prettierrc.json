@@ -7,13 +7,5 @@
     "@prettier/plugin-xml",
     "@trivago/prettier-plugin-sort-imports",
     "prettier-plugin-tailwindcss"
-  ],
-  "importOrder": [
-    "^react",
-    "^next(.*)$",
-    "^tailwindcss(.*)$",
-    "<THIRD_PARTY_MODULES>",
-    "^~/components/(.*)$",
-    "^~/styles/(.*)$"
   ]
 }
