@@ -27,7 +27,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter var', ...fontFamily.sans],
+        sans: ['var(--font-inter)', ...fontFamily.sans],
       },
       minWidth: {
         xs: '320px',
