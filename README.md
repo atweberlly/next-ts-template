@@ -67,7 +67,3 @@ To preview the production build locally, run the following command:
 ```bash
 npm run preview
 ```
-
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](/LICENSE.md) file for more details.
