@@ -54,6 +54,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-tailwindcss": "^3.13.0",
     "postcss": "^8.4.24",
     "postcss-import": "^15.1.0",
     "postcss-sort-media-queries": "^5.2.0",
